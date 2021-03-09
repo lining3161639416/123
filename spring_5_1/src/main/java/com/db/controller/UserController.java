@@ -12,7 +12,7 @@ public class UserController {
     private UserService userService;
     public  void trans(){
         try {
-            System.out.println("uuu");
+            System.out.println("u");
             userService.trans("大陆和","xtt", 200.0);
         } catch (Exception e) {
             e.printStackTrace();
